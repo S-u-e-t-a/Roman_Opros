@@ -1,0 +1,17 @@
+﻿<Window x:Class="ti_daun.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ti_daun"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="Опрос" Height="180" Width="320"
+        Closing="MainWindow_OnClosing">
+    <Grid>
+        <Label Name="Label" Content="Ты даун?" HorizontalAlignment="Center" Height="40"  VerticalAlignment="Top" FontSize="20"/>
+        <Button Name="YesButton" Click="ButtonBase_OnClick" Content="Да" Focusable="False" HorizontalAlignment="Left" Margin="44,99,0,0" VerticalAlignment="Top" Width="75" Height="36"/>
+        <Button Name="NoButton" Content="Нет" Focusable="False" HorizontalAlignment="Left" Margin="227,99,0,0" VerticalAlignment="Top" Width="75" MouseMove="UIElement_OnMouseMove" Height="36" />
+
+    </Grid>
+</Window>
